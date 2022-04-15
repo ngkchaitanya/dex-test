@@ -76,16 +76,16 @@ function myFunction(x) {
     }
 
     for (var i = 0; i < h2Headers.length; i++) {
-      if (i > 0 && i < h2Headers.length - 1) {
+      if (i > 0) {
         h2Headers[i].style.textAlign = "center";
       } else {
         h2Headers[i].style.textAlign = "left";
       }
-      h2Headers[i].style.fontSize = "1rem";
+      h2Headers[i].style.fontSize = "0.9rem";
     }
 
     for (var i = 0; i < h3Headers.length; i++) {
-      if (i > 0 && i < h3Headers.length - 1) {
+      if (i < h3Headers.length - 1) {
         h3Headers[i].style.textAlign = "center";
       } else {
         h3Headers[i].style.textAlign = "left";
